@@ -24,20 +24,20 @@ typeof console.log    //function
 * 引用类型：obiect,array,function  **引用类型具有对象特性，可以自由扩展属性（除null意外）**
 > 注意：typeof只能区分**值类型**，不能区分**引用类型**，但是能区分函数，因为函数是一个特殊的引用类型
 
-以下是值类型的一个例子
 
+以下是值类型的一个例子
 ```
-var a = 10
-var b = a
-a = 11
-console.log(b) //11
+var aa = 10;
+var bb = a;
+aa = 11;
+console.log(bb); //11
 ```
 以下是引用类型的一个例子
 ```
-var a = {age: 18}
-var b = a
-b.age = 20
-console.log(a.age) //20
+var aaa = {age: 18};
+var bbb = aaa;
+bbb.age = 20;
+console.log(aaa.age);  //20
 ```
 通过例子可以看出他们的区别，引用类型是可以自由扩展属性的，**值类型复制不会相互影响**，**引用类型变量指针赋值，会相互影响**
 
