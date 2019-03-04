@@ -41,3 +41,4 @@ console.log(e); //{name: "john", age: 20, sex:"man"}
 
 f.name = 'array'; //?[1, 2, 3, 4, name: "array"]
 
+//变量计算在流浪器console一下
