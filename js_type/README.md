@@ -1,5 +1,5 @@
 # JS_Type
-没什么好说的，就学习巩固and归类一下js数据类型，变量类型以及变量计算
+没什么好说的，就学习巩固and归类一下js数据类型，变量类型及变量计算、json
 
 ## 数据类型
 - 基本类型：__Number__、__String__、__Boolean__、__Null__、__Undefined__
@@ -99,3 +99,11 @@ console.log(!!aa)
 - false 本身
 除了以上几个，其他的都会被转换为true。**除了if之外，! || &&这三个运算符也会进行同样的转换，跟if是一个道理**。因此，如何快速判断一个变量将会被if转换为什么呢？————!!a
 
+## js中的内置对象
+数据封装类的对象
+Object、Array、Boolean、Number、String、Function、Date、RegExp、Error
+
+## JSON
+> json不仅仅是一种数据格式，也是一个js对象
+- json.stringily({a:1,b:2})
+- json.parse('{a:1,b:2}')

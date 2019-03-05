@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型及原型链</title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+    function Fn(name, age){
+        this.name = name;
+        this.age = age;
+        //return this;  这里面的this本身是个空对象，new 对象后，return this,此时this就指向 newF 或 newF2
+    }
+    var newF = new Fn('yalu',20);
+    var newF2 = new Fn('john',18); //可创建多个对象
+
+</script>
+</body>
+</html>
